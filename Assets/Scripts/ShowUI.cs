@@ -11,7 +11,7 @@ public class ShowUI : MonoBehaviour
     void Start()
     {
         DisplayTime(NavBola.batasWaktu);
-        ShowCoin.text = "Score: " + NavBola.coins;
+        ShowCoin.text = "Score: " + MovePlayer.coins;
 
     }
 
