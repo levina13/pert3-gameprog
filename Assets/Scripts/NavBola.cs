@@ -16,6 +16,12 @@ public class NavBola : MonoBehaviour
     public GameObject lantai;
     public static float batasWaktu = 60f;
     private int TotalCoin;
+    // Tambahan untuk Peluru
+    public Rigidbody projectFile;
+    public Transform shotPos;
+    // Arah Tembakan
+    private Vector3 offset;
+    public float turnSpeed = 1f;
     // Start is called before the first frame update
     void Start()
     {
@@ -24,6 +30,8 @@ public class NavBola : MonoBehaviour
         rg = GetComponent<Rigidbody>();
         TotalCoin = GameObject.FindGameObjectsWithTag("Coin").Length;
         UpdateCoin();
+        // posisi kamera awal
+        offset = transform.position;
     }
     // Update is called once per frame
     void Update()
