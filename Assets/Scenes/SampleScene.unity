@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641275, b: 0.5748172, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -432,8 +432,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectTile: {fileID: 6633940311492875180, guid: 01bd9cca09c24324b9d52b7a28fbbed5, type: 3}
   shotPos: {fileID: 1116562339}
-  turnSpeed: 1
-  moveSpeed: 1
+  turnSpeed: 5
+  moveSpeed: 5
   shotForce: 1000
   WaktuSisa: {fileID: 2025345580}
   ShowCoin: {fileID: 103506210}
@@ -745,7 +745,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   posPositive: {fileID: 408862506}
   posNegative: {fileID: 102655551}
-  speed: 1
+  speed: 0.5
 --- !u!1 &373893538
 GameObject:
   m_ObjectHideFlags: 0
@@ -3355,7 +3355,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   posPositive: {fileID: 373893538}
   posNegative: {fileID: 1323486783}
-  speed: 1
+  speed: 0.5
 --- !u!65 &1651667205
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4182,7 +4182,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   posPositive: {fileID: 189602656}
   posNegative: {fileID: 1796374255}
-  speed: 1
+  speed: 0.5
 --- !u!65 &2055715671
 BoxCollider:
   m_ObjectHideFlags: 0
