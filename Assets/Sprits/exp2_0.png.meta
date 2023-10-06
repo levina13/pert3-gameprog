@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 701fa4558a13f7f4297e47958ac71221
+guid: 94b17ee65f9970240b401ff15b0fda58
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,64 +110,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ledakan 1_0
+      name: exp2_0_0
       rect:
         serializedVersion: 2
-        x: 400
-        y: 0
-        width: 173.33333
-        height: 184
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 192
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea6f621b5ffdcab418ca7d655fc7ac79
-      internalID: 898919931
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ledakan 1_1
-      rect:
-        serializedVersion: 2
-        x: 573
-        y: 0
-        width: 173.33333
-        height: 184
-      alignment: 1
-      pivot: {x: 0, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a4534009b0089aa459fe4a8b6dd54515
-      internalID: 30626678
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ledakan 1_2
-      rect:
-        serializedVersion: 2
-        x: 746
-        y: 0
-        width: 173.33333
-        height: 184
-      alignment: 1
-      pivot: {x: 0, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d4931e80bcec1b54c83ef27997ad2458
-      internalID: -1657818553
+      spriteID: f71d5d6447bc817418557ceeb879949a
+      internalID: 1434605465
       vertices: []
       indices: 
       edges: []
@@ -175,7 +133,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: b06fe47e0d3d59549994d631330b7d1f
+    spriteID: 352b2df9131f09241a219f22e6ef449f
     internalID: 0
     vertices: []
     indices: 
@@ -183,9 +141,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      ledakan 1_0: 898919931
-      ledakan 1_1: 30626678
-      ledakan 1_2: -1657818553
+      exp2_0_0: 1434605465
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

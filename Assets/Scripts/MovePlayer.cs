@@ -21,6 +21,7 @@ public class MovePlayer : MonoBehaviour
     public static int coins;
     public TMP_Text ShowCoin;
     public AudioSource shootsound;
+    public Animator LedakanAnim;
     // Start is called before the first frame update
     void Start()
     {
@@ -50,6 +51,7 @@ public class MovePlayer : MonoBehaviour
             Rigidbody shot = Instantiate(projectTile, shotPos.position, shotPos.rotation) as Rigidbody;
             shot.AddForce(shotPos.forward * shotForce);
             shootsound.Play();
+            LedakanAnim.SetTrigger("ledakanState");
         }
         DisplayTime(batasWaktu);
         batasWaktu -= Time.deltaTime;

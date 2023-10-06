@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d5d057fcac5c25c4faba95c29cde727b
+guid: cd136cdd0e38e354e9c7ee1e9ee39de2
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ledakan_0
+      name: exp2_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 184
-        width: 184
-        height: 184
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1fc58ebf965c78844874cf63df6b3021
-      internalID: 1923511485
+      spriteID: a8bfbb19c073e1141ba42207d9a56967
+      internalID: -1965223610
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ledakan_1
+      name: exp2_1
       rect:
         serializedVersion: 2
-        x: 184
-        y: 184
-        width: 184
-        height: 184
+        x: 64
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,20 +145,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f62a87a2e083f654db8b7665ae9a881f
-      internalID: -532782322
+      spriteID: bd16b336449124d46affe49761dea575
+      internalID: -1535033741
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ledakan_2
+      name: exp2_2
       rect:
         serializedVersion: 2
-        x: 368
-        y: 184
-        width: 184
-        height: 184
+        x: 128
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,20 +166,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 14f66e4d4b6d63a429a52aea3227a506
-      internalID: 1747000680
+      spriteID: 213053fb9899240439972aaf7b2720a0
+      internalID: -341893453
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ledakan_3
+      name: exp2_3
       rect:
         serializedVersion: 2
-        x: 552
-        y: 184
-        width: 184
-        height: 184
+        x: 192
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,20 +187,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 205b635b691db30458337a4db5d78391
-      internalID: -1337499874
+      spriteID: fc7604df9280882439642d5d2969ce16
+      internalID: 853381103
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ledakan_4
+      name: exp2_4
       rect:
         serializedVersion: 2
-        x: 736
-        y: 184
-        width: 184
-        height: 184
+        x: 0
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,20 +208,167 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 48339228c2660c344bd7334b2b2741f8
-      internalID: 182050094
+      spriteID: 799424c211b81aa4f97541cc617483c5
+      internalID: -1045369825
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ledakan_5
+      name: exp2_5
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aa89052836873d429f2b523b86ac38f
+      internalID: -704743532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp2_6
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e893c6f4c9fb6cf40a36a31a718e8da6
+      internalID: -1551642355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp2_7
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c3ce67f7f4d6d34b919123e594cfc14
+      internalID: -23640515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp2_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d70918bc5e5b714daba111b8f433d60
+      internalID: -1376425659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp2_9
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96ded4d00fbf3444bb28d3d0e67d0370
+      internalID: -1422231940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp2_10
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9169feb8da19855488826617cc43c81c
+      internalID: 264867596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp2_11
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff82bf253b4d0c54096ac02e19a13834
+      internalID: -727651199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp2_12
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 184
-        height: 184
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -229,20 +376,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 37dc42a9895f67f4da20c8d32bf0245a
-      internalID: 2132824420
+      spriteID: f2f7c5d3a06686046b07014adbdf33d6
+      internalID: 1374091194
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ledakan_6
+      name: exp2_13
       rect:
         serializedVersion: 2
-        x: 184
+        x: 64
         y: 0
-        width: 184
-        height: 184
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -250,20 +397,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 371a73fb600fb8f409bc27b1d5ab04f8
-      internalID: -552765068
+      spriteID: 4a8d343ea2528a24192310356a0a8446
+      internalID: -900003923
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ledakan_7
+      name: exp2_14
       rect:
         serializedVersion: 2
-        x: 368
+        x: 128
         y: 0
-        width: 184
-        height: 184
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -271,20 +418,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 957281349a644724ba2b6328d93d1b25
-      internalID: -847324874
+      spriteID: 181c345a6c9619c4ab3643861eb56494
+      internalID: 348163472
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ledakan_8
+      name: exp2_15
       rect:
         serializedVersion: 2
-        x: 552
+        x: 192
         y: 0
-        width: 184
-        height: 184
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -292,29 +439,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 32c5c9083431cfb4aadfd89dea5f2598
-      internalID: 1803939496
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ledakan_9
-      rect:
-        serializedVersion: 2
-        x: 736
-        y: 0
-        width: 184
-        height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5ab1cbf30cf5151418181e5cf13b7dd1
-      internalID: 1467081891
+      spriteID: 8feb0b4d3290ebe4f995d3ae5035ce00
+      internalID: -2059559195
       vertices: []
       indices: 
       edges: []
@@ -322,7 +448,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: b06fe47e0d3d59549994d631330b7d1f
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -330,16 +456,22 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      ledakan_0: 1923511485
-      ledakan_1: -532782322
-      ledakan_2: 1747000680
-      ledakan_3: -1337499874
-      ledakan_4: 182050094
-      ledakan_5: 2132824420
-      ledakan_6: -552765068
-      ledakan_7: -847324874
-      ledakan_8: 1803939496
-      ledakan_9: 1467081891
+      exp2_0: -1965223610
+      exp2_1: -1535033741
+      exp2_10: 264867596
+      exp2_11: -727651199
+      exp2_12: 1374091194
+      exp2_13: -900003923
+      exp2_14: 348163472
+      exp2_15: -2059559195
+      exp2_2: -341893453
+      exp2_3: 853381103
+      exp2_4: -1045369825
+      exp2_5: -704743532
+      exp2_6: -1551642355
+      exp2_7: -23640515
+      exp2_8: -1376425659
+      exp2_9: -1422231940
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
