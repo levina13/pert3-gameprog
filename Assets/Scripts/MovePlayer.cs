@@ -20,6 +20,7 @@ public class MovePlayer : MonoBehaviour
     int TotalCoin;
     public static int coins;
     public TMP_Text ShowCoin;
+    public AudioSource shootsound;
     // Start is called before the first frame update
     void Start()
     {
@@ -44,10 +45,11 @@ public class MovePlayer : MonoBehaviour
         offset = Quaternion.AngleAxis(Input.GetAxis("Mouse X") * turnSpeed, Vector3.up) * Quaternion.AngleAxis(Input.GetAxis("Mouse Y") * turnSpeed, Vector3.right) * offset;
         transform.LookAt(transform.position + offset);
 
-        if (Input.GetKeyDown(KeyCode.Space)) // Ke Lompat
+        if (Input.GetKeyDown(KeyCode.Space)) // Shoot
         {
             Rigidbody shot = Instantiate(projectTile, shotPos.position, shotPos.rotation) as Rigidbody;
             shot.AddForce(shotPos.forward * shotForce);
+            shootsound.Play();
         }
         DisplayTime(batasWaktu);
         batasWaktu -= Time.deltaTime;
